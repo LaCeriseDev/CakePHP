@@ -16,12 +16,12 @@ class ArticlesTable extends Table
     }
 
     public function beforeSave($event, $entity, $options)
-{
-    if ($entity->isNew() && !$entity->slug) {
-        $sluggedTitle = Text::slug($entity->title);
-        // On ne garde que le nombre de caractère correspondant à la longueur
-        // maximum définie dans notre schéma
-        $entity->slug = substr($sluggedTitle, 0, 191);
+    {
+        if ($entity->isNew() && !$entity->slug) {
+            $sluggedTitle = Text::slug($entity->title);
+            // On ne garde que le nombre de caractère correspondant à la longueur
+            // maximum définie dans notre schéma
+            $entity->slug = substr($sluggedTitle, 0, 191);
+        }
     }
-}
 }
