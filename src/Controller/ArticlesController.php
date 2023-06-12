@@ -15,8 +15,11 @@ class ArticlesController extends AppController
 
     public function view($slug = null)
     {
-        $article = $this->Articles->findBySlug($slug)->firstOrFail();
-        $this->set(compact('article')); 
+        $article = $this->Articles
+            ->findBySlug($slug)
+            ->contain('Tags')
+            ->firstOrFail();
+        $this->set(compact('article'));
     }
 
     public function add()
@@ -47,8 +50,9 @@ class ArticlesController extends AppController
     public function edit($slug) 
     {
         $article = $this->Articles
-        ->findBySlug($slug)
-        ->firstOrFail();
+            ->findBySlug($slug)
+            ->contain('Tags')
+            ->firstOrFail();
 
         if ($this->request->is(['post', 'put'])) {
             $this->Articles->patchEntity($article, $this->request->getData());
@@ -75,5 +79,24 @@ class ArticlesController extends AppController
             $this->Flash->success(__('L\'article {0} a été supprimé.', $article->title));
             return $this->redirect(['action' => 'index']);
         }
+    }
+
+    public function tags()
+    {
+        // La clé 'pass' est fournie par CakePHP et contient tous les
+        // segments d'URL passés dans la requête
+        $tags = $this->request->getParam('pass');
+
+        // Utilisation de ArticlesTable pour trouver les articles taggés
+        $articles = $this->Articles->find('tagged', [
+            'tags' => $tags
+        ])
+        ->all();
+
+        // Passage des variables dans le contexte de la view du template
+        $this->set([
+            'articles' => $articles,
+            'tags' => $tags
+        ]);
     }
 }
