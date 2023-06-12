@@ -3,6 +3,7 @@
 
 namespace App\Controller;
 
+use App\Controller\AppController;
 class ArticlesController extends AppController
 {
     public function index()
@@ -34,8 +35,14 @@ class ArticlesController extends AppController
             }
             $this->Flash->error(__('Impossible d\'ajouter votre article.'));
         }
+        // Récupère une liste des tags.
+        $tags = $this->Articles->Tags->find('list');
+        // Passe les tags au context de la view
+        $this->set('tags', $tags);
+        // Passe les articles au context de la view
         $this->set('article', $article);
     }
+    
 
     public function edit($slug) 
     {
@@ -51,7 +58,11 @@ class ArticlesController extends AppController
             }
             $this->Flash->error(__('Impossible de mettre à jour l\'article.'));
         }
-
+        // Récupère une liste des tags.
+        $tags = $this->Articles->Tags->find('list');
+        // Passe les tags au context de la view
+        $this->set('tags', $tags);
+        // Passe les articles au context de la view
         $this->set('article', $article);
     }
 
