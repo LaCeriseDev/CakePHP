@@ -51,8 +51,7 @@ foreach($locales as $code => $locale) {
         </div>
         <div class="top-nav-links">
             <?= $this->Form->create(null, ['type' => 'get', 'url' => ['controller' => 'App', 'action' => 'changeLanguage'], 'id' => 'languageForm']) ?>
-                <?= $this->Form->control('lang', ['type' => 'select', 'options' => $languageOptions, 'empty' => false, 'default' => $this->request->getSession()->read('Config.language'), 'id' => 'languageSelect']) ?>
-  
+                <?= $this->Form->control('lang', ['type' => 'select', 'options' => $languageOptions, 'empty' => false, 'default' => $this->request->getSession()->read('Config.language'), 'id' => 'languageSelect', 'onchange' => 'this.form.submit();']) ?>
             <?= $this->Form->end() ?>
 
             <a target="_blank" rel="noopener" href="https://book.cakephp.org/4/"><?= __("Documentation") ?></a>
@@ -68,9 +67,9 @@ foreach($locales as $code => $locale) {
     <footer>
     </footer>
     <script>
-        document.getElementById('languageSelect').addEventListener('change', function() {
-            document.getElementById('languageForm').submit();
-        });
+        // document.getElementById('languageSelect').addEventListener('change', function() {
+        //     document.getElementById('languageForm').submit();
+        // });
     </script>
 </body>
 </html>
