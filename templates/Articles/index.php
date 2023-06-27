@@ -1,12 +1,12 @@
 <!-- Fichier : templates/Articles/index.php -->
 
-<h1>Articles</h1>
-<?= $this->Html->link('Ajouter un article', ['action' => 'add']) ?>
+<h1>Post</h1>
+<?= $this->Html->link(__('Add a post'), ['action' => 'add']) ?>
 <table>
     <tr>
-        <th>Titre</th>
-        <th>Créé le</th>
-        <th>Action</th>
+        <th><?= __("Title") ?></th>
+        <th><?= __("Created at") ?></th>
+        <th><?= __("Action") ?></th>
     </tr>
 
     <!-- C'est ici que nous bouclons sur notre objet Query $articles pour afficher les informations de chaque article -->
@@ -14,18 +14,18 @@
     <?php foreach ($articles as $article): ?>
     <tr>
         <td>
-            <?= $this->Html->link($article->title, ['action' => 'view', $article->slug]) ?>
+            <?= $this->Html->link(__($article->title), ['action' => 'view', $article->slug]) ?>
         </td>
         <td>
             <?= $article->created->format(DATE_RFC850) ?>
         </td>
         <td>
-            <?= $this->Html->link('Modifier', ['action' => 'edit', $article->slug]) ?>
+            <?= $this->Html->link(__('Edit'), ['action' => 'edit', $article->slug]) ?>
             |
             <?= $this->Form->postLink(
-                'Supprimer',
+                __('Delete'),
                 ['action' => 'delete', $article->slug],
-                ['confirm' => 'Êtes-vous sûr ?'])
+                ['confirm' => 'Are-you sure ?'])
             ?>
         </td>
     </tr>

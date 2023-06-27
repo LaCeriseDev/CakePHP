@@ -131,7 +131,7 @@ class UsersController extends AppController
         // afficher une erreur si l'utilisateur a soumis un formulaire
         // et que l'authentification a échoué
         if ($this->request->is('post') && !$result->isValid()) {
-            $this->Flash->error(__('Votre identifiant ou votre mot de passe est incorrect.'));
+            $this->Flash->error(__('Your username or password is incorrect.'));
         }
     }
 

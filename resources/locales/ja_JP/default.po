@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: lokalise.com\n"
+"Project-Id-Version: learning\n"
+"PO-Revision-Date: 2023-06-25 20:05\n"
+"Last-Translator: lokalise.com\n"
+"Language-Team: lokalise.com\n\n"
+"Language: ja\n"
+
+msgid "Your post has been saved."
+msgstr "投稿が保存されました。"
+
+msgid "Unable to add your post."
+msgstr "投稿を追加できません。"
+
+msgid "Your post has been updated."
+msgstr "投稿が更新されました。"
+
+msgid "Unable to update the post."
+msgstr "投稿を更新できません。"
+
+msgid "The post {0} has been deleted."
+msgstr "投稿 {0} が削除されました。"
+
+msgid "The tag has been saved."
+msgstr "タグが保存されました。"
+
+msgid "The tag could not be saved. Please, try again."
+msgstr "タグを保存できません。もう一度お試しください。"
+
+msgid "The tag has been deleted."
+msgstr "タグが削除されました。"
+
+msgid "The tag could not be deleted. Please, try again."
+msgstr "タグを削除できません。もう一度お試しください。"
+
+msgid "The user has been saved."
+msgstr "ユーザーが保存されました。"
+
+msgid "The user could not be saved. Please, try again."
+msgstr "ユーザーを保存できません。もう一度お試しください。"
+
+msgid "The user has been deleted."
+msgstr "ユーザーが削除されました。"
+
+msgid "The user could not be deleted. Please, try again."
+msgstr "ユーザーを削除できません。もう一度お試しください。"
+
+msgid "Your username or password is incorrect."
+msgstr "ユーザー名またはパスワードが正しくありません。"
+
+msgid "Add a post"
+msgstr "投稿を追加"
+
+msgid "title"
+msgstr "タイトル"
+
+msgid "body"
+msgstr "本文"
+
+msgid "save"
+msgstr "保存"
+
+msgid "Edit a post"
+msgstr "投稿を編集"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Post with tags"
+msgstr "タグ付きの投稿"
+
+msgid "Tags"
+msgstr "タグ"
+
+msgid "Created at"
+msgstr "作成日時"
+
+msgid "Actions"
+msgstr "アクション"
+
+msgid "Add Tag"
+msgstr "タグを追加"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Are you sure you want to delete # {0}?"
+msgstr "本当に # {0} を削除してもよろしいですか？"
+
+msgid "List Tags"
+msgstr "タグの一覧"
+
+msgid "Edit Tag"
+msgstr "タグの編集"
+
+msgid "New Tag"
+msgstr "新しいタグ"
+
+msgid "View"
+msgstr "表示"
+
+msgid "first"
+msgstr "最初"
+
+msgid "previous"
+msgstr "前"
+
+msgid "next"
+msgstr "次"
+
+msgid "last"
+msgstr "最後"
+
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "ページ {{page}} / {{pages}}、合計 {{count}} 件中 {{current}} 件を表示しています"
+
+msgid "Delete Tag"
+msgstr "タグの削除"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Created"
+msgstr "作成日時"
+
+msgid "Modified"
+msgstr "更新日時"
+
+msgid "Related Articles"
+msgstr "関連記事"
+
+msgid "User Id"
+msgstr "ユーザーID"
+
+msgid "Body"
+msgstr "本文"
+
+msgid "Published"
+msgstr "公開済み"
+
+msgid "List Users"
+msgstr "ユーザーの一覧"
+
+msgid "Add User"
+msgstr "ユーザーの追加"
+
+msgid "Edit User"
+msgstr "ユーザーの編集"
+
+msgid "New User"
+msgstr "新しいユーザー"
+
+msgid "Users"
+msgstr "ユーザー"
+
+msgid "Connexion"
+msgstr "ログイン"
+
+msgid "Please enter your username and password"
+msgstr "ユーザー名とパスワードを入力してください"
+
+msgid "email"
+msgstr "メールアドレス"
+
+msgid "password"
+msgstr "パスワード"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Add a user"
+msgstr "ユーザーを追加"
+
+msgid "Delete User"
+msgstr "ユーザーの削除"
+
+msgid "Email"
+msgstr "メールアドレス"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Unable to update the post"
+msgstr "投稿を更新できません"
+
+msgid "Action"
+msgstr "アクション"

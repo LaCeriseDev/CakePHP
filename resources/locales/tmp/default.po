@@ -1,0 +1,326 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2023-06-20 09:48+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/ArticlesController.php:37
+msgid "Your post has been saved."
+msgstr "Your post has been saved."
+
+#: ./src/Controller/ArticlesController.php:40
+msgid "Unable to add your post."
+msgstr "Unable to add your post."
+
+#: ./src/Controller/ArticlesController.php:60
+msgid "Your post has been updated."
+msgstr "Your post has been updated."
+
+#: ./src/Controller/ArticlesController.php:63
+msgid "Unable to update the post."
+msgstr "Unable to update the post."
+
+#: ./src/Controller/ArticlesController.php:82
+msgid "The post {0} has been deleted."
+msgstr "The post {0} has been deleted."
+
+#: ./src/Controller/TagsController.php:53
+#: ./src/Controller/TagsController.php:78
+msgid "The tag has been saved."
+msgstr "The tag has been saved."
+
+#: ./src/Controller/TagsController.php:57
+#: ./src/Controller/TagsController.php:82
+msgid "The tag could not be saved. Please, try again."
+msgstr "The tag could not be saved. Please, try again."
+
+#: ./src/Controller/TagsController.php:100
+msgid "The tag has been deleted."
+msgstr "The tag has been deleted."
+
+#: ./src/Controller/TagsController.php:102
+msgid "The tag could not be deleted. Please, try again."
+msgstr "The tag could not be deleted. Please, try again."
+
+#: ./src/Controller/UsersController.php:54
+#: ./src/Controller/UsersController.php:78
+msgid "The user has been saved."
+msgstr "The user has been saved."
+
+#: ./src/Controller/UsersController.php:58
+#: ./src/Controller/UsersController.php:82
+msgid "The user could not be saved. Please, try again."
+msgstr "The user could not be saved. Please, try again."
+
+#: ./src/Controller/UsersController.php:99
+msgid "The user has been deleted."
+msgstr "The user has been deleted."
+
+#: ./src/Controller/UsersController.php:101
+msgid "The user could not be deleted. Please, try again."
+msgstr "The user could not be deleted. Please, try again."
+
+#: ./src/Controller/UsersController.php:134
+msgid "Your username or password is incorrect."
+msgstr "Your username or password is incorrect."
+
+#: ./templates/Articles/add.php:3
+msgid "Add a post"
+msgstr "Add a post"
+
+#: ./templates/Articles/add.php:8
+#: ./templates/Articles/edit.php:6
+msgid "title"
+msgstr "title"
+
+#: ./templates/Articles/add.php:9
+#: ./templates/Articles/edit.php:7
+msgid "body"
+msgstr "body"
+
+#: ./templates/Articles/add.php:11
+#: ./templates/Articles/edit.php:9
+msgid "save"
+msgstr "save"
+
+#: ./templates/Articles/edit.php:3
+msgid "Edit a post"
+msgstr "Edit a post"
+
+#: ./templates/Articles/index.php:23
+#: ./templates/Articles/view.php:7
+#: ./templates/Tags/index.php:30
+#: ./templates/Tags/view.php:66
+#: ./templates/Users/index.php:30
+#: ./templates/Users/view.php:66
+msgid "Edit"
+msgstr "Edit"
+
+#: ./templates/Articles/index.php:26
+#: ./templates/Tags/edit.php:13
+#: ./templates/Tags/index.php:31
+#: ./templates/Tags/view.php:67
+#: ./templates/Users/edit.php:12
+#: ./templates/Users/index.php:31
+#: ./templates/Users/view.php:67
+msgid "Delete"
+msgstr "Delete"
+
+#: ./templates/Articles/tags.php:3
+msgid "Post with tags"
+msgstr "Post with tags"
+
+#: ./templates/Articles/view.php:5
+msgid "Tags"
+msgstr "Tags"
+
+#: ./templates/Articles/view.php:6
+msgid "Created at"
+msgstr "Created at"
+
+#: ./templates/Tags/add.php:11
+#: ./templates/Tags/edit.php:11
+#: ./templates/Tags/index.php:18
+#: ./templates/Tags/view.php:10
+#: ./templates/Tags/view.php:52
+#: ./templates/Users/add.php:10
+#: ./templates/Users/edit.php:10
+#: ./templates/Users/index.php:18
+#: ./templates/Users/view.php:10
+#: ./templates/Users/view.php:52
+msgid "Actions"
+msgstr "Actions"
+
+#: ./templates/Tags/add.php:19
+msgid "Add Tag"
+msgstr "Add Tag"
+
+#: ./templates/Tags/add.php:25
+#: ./templates/Tags/edit.php:30
+#: ./templates/Users/add.php:24
+#: ./templates/Users/edit.php:29
+msgid "Submit"
+msgstr "Submit"
+
+#: ./templates/Tags/edit.php:15
+#: ./templates/Tags/index.php:31
+#: ./templates/Tags/view.php:12
+#: ./templates/Tags/view.php:67
+#: ./templates/Users/edit.php:14
+#: ./templates/Users/index.php:31
+#: ./templates/Users/view.php:12
+#: ./templates/Users/view.php:67
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Are you sure you want to delete # {0}?"
+
+#: ./templates/Tags/edit.php:17
+#: ./templates/Tags/view.php:13
+msgid "List Tags"
+msgstr "List Tags"
+
+#: ./templates/Tags/edit.php:24
+#: ./templates/Tags/view.php:11
+msgid "Edit Tag"
+msgstr "Edit Tag"
+
+#: ./templates/Tags/index.php:8
+#: ./templates/Tags/view.php:14
+msgid "New Tag"
+msgstr "New Tag"
+
+#: ./templates/Tags/index.php:9
+msgid "Tags"
+msgstr "Tags"
+
+#: ./templates/Tags/index.php:29
+#: ./templates/Tags/view.php:65
+#: ./templates/Users/index.php:29
+#: ./templates/Users/view.php:65
+msgid "View"
+msgstr "View"
+
+#: ./templates/Tags/index.php:40
+#: ./templates/Users/index.php:40
+msgid "first"
+msgstr "first"
+
+#: ./templates/Tags/index.php:41
+#: ./templates/Users/index.php:41
+msgid "previous"
+msgstr "previous"
+
+#: ./templates/Tags/index.php:43
+#: ./templates/Users/index.php:43
+msgid "next"
+msgstr "next"
+
+#: ./templates/Tags/index.php:44
+#: ./templates/Users/index.php:44
+msgid "last"
+msgstr "last"
+
+#: ./templates/Tags/index.php:46
+#: ./templates/Users/index.php:46
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+
+#: ./templates/Tags/view.php:12
+msgid "Delete Tag"
+msgstr "Delete Tag"
+
+#: ./templates/Tags/view.php:22
+#: ./templates/Tags/view.php:46
+#: ./templates/Users/view.php:46
+msgid "Title"
+msgstr "Title"
+
+#: ./templates/Tags/view.php:26
+#: ./templates/Tags/view.php:44
+#: ./templates/Users/view.php:26
+#: ./templates/Users/view.php:44
+msgid "Id"
+msgstr "Id"
+
+#: ./templates/Tags/view.php:30
+#: ./templates/Tags/view.php:50
+#: ./templates/Users/view.php:30
+#: ./templates/Users/view.php:50
+msgid "Created"
+msgstr "Created"
+
+#: ./templates/Tags/view.php:34
+#: ./templates/Tags/view.php:51
+#: ./templates/Users/view.php:34
+#: ./templates/Users/view.php:51
+msgid "Modified"
+msgstr "Modified"
+
+#: ./templates/Tags/view.php:39
+#: ./templates/Users/view.php:39
+msgid "Related Articles"
+msgstr "Related Articles"
+
+#: ./templates/Tags/view.php:45
+#: ./templates/Users/view.php:45
+msgid "User Id"
+msgstr "User Id"
+
+#: ./templates/Tags/view.php:48
+#: ./templates/Users/view.php:48
+msgid "Body"
+msgstr "Body"
+
+#: ./templates/Tags/view.php:49
+#: ./templates/Users/view.php:49
+msgid "Published"
+msgstr "Published"
+
+#: ./templates/Users/add.php:11
+#: ./templates/Users/edit.php:16
+#: ./templates/Users/view.php:13
+msgid "List Users"
+msgstr "List Users"
+
+#: ./templates/Users/add.php:18
+msgid "Add User"
+msgstr "Add User"
+
+#: ./templates/Users/edit.php:23
+#: ./templates/Users/view.php:11
+msgid "Edit User"
+msgstr "Edit User"
+
+#: ./templates/Users/index.php:8
+#: ./templates/Users/view.php:14
+msgid "New User"
+msgstr "New User"
+
+#: ./templates/Users/index.php:9
+msgid "Users"
+msgstr "Users"
+
+#: ./templates/Users/login.php:3
+msgid "Connexion"
+msgstr "Connexion"
+
+#: ./templates/Users/login.php:6
+msgid "Please enter your username and password"
+msgstr "Please enter your username and password"
+
+#: ./templates/Users/login.php:7
+msgid "email"
+msgstr "email"
+
+#: ./templates/Users/login.php:8
+msgid "password"
+msgstr "password"
+
+#: ./templates/Users/login.php:10
+msgid "Login"
+msgstr "Login"
+
+#: ./templates/Users/login.php:13
+msgid "Add a user"
+msgstr "Add a user"
+
+#: ./templates/Users/view.php:12
+msgid "Delete User"
+msgstr "Delete User"
+
+#: ./templates/Users/view.php:22
+msgid "Email"
+msgstr "Email"
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr "Back"

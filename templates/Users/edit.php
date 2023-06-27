@@ -22,8 +22,8 @@
             <fieldset>
                 <legend><?= __('Edit User') ?></legend>
                 <?php
-                    echo $this->Form->control('email');
-                    echo $this->Form->control('password');
+                    echo $this->Form->control(__('email'), ['type' => 'password', 'id' => 'password', 'name' => 'password', 'required' => true]);
+                    echo $this->Form->control(__('password'), ['type' => 'password', 'id' => 'password', 'name' => 'password', 'required' => true]);
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

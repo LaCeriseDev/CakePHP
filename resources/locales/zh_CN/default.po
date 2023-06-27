@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: lokalise.com\n"
+"Project-Id-Version: learning\n"
+"PO-Revision-Date: 2023-06-25 20:05\n"
+"Last-Translator: lokalise.com\n"
+"Language-Team: lokalise.com\n\n"
+"Language: zh_CN\n"
+
+msgid "Your post has been saved."
+msgstr "您的帖子已保存。"
+
+msgid "Unable to add your post."
+msgstr "无法添加您的帖子。"
+
+msgid "Your post has been updated."
+msgstr "您的帖子已更新。"
+
+msgid "Unable to update the post."
+msgstr "无法更新帖子。"
+
+msgid "The post {0} has been deleted."
+msgstr "帖子 {0} 已删除。"
+
+msgid "The tag has been saved."
+msgstr "标签已保存。"
+
+msgid "The tag could not be saved. Please, try again."
+msgstr "无法保存标签。请重试。"
+
+msgid "The tag has been deleted."
+msgstr "标签已删除。"
+
+msgid "The tag could not be deleted. Please, try again."
+msgstr "无法删除标签。请重试。"
+
+msgid "The user has been saved."
+msgstr "用户已保存。"
+
+msgid "The user could not be saved. Please, try again."
+msgstr "无法保存用户。请重试。"
+
+msgid "The user has been deleted."
+msgstr "用户已删除。"
+
+msgid "The user could not be deleted. Please, try again."
+msgstr "无法删除用户。请重试。"
+
+msgid "Your username or password is incorrect."
+msgstr "您的用户名或密码不正确。"
+
+msgid "Add a post"
+msgstr "添加帖子"
+
+msgid "title"
+msgstr "标题"
+
+msgid "body"
+msgstr "正文"
+
+msgid "save"
+msgstr "保存"
+
+msgid "Edit a post"
+msgstr "编辑帖子"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Post with tags"
+msgstr "带标签的帖子"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid "Created at"
+msgstr "创建于"
+
+msgid "Actions"
+msgstr "操作"
+
+msgid "Add Tag"
+msgstr "添加标签"
+
+msgid "Submit"
+msgstr "提交"
+
+msgid "Are you sure you want to delete # {0}?"
+msgstr "您确定要删除 # {0} 吗？"
+
+msgid "List Tags"
+msgstr "标签列表"
+
+msgid "Edit Tag"
+msgstr "编辑标签"
+
+msgid "New Tag"
+msgstr "新标签"
+
+msgid "View"
+msgstr "查看"
+
+msgid "first"
+msgstr "第一个"
+
+msgid "previous"
+msgstr "上一页"
+
+msgid "next"
+msgstr "下一页"
+
+msgid "last"
+msgstr "最后一个"
+
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "第 {{page}} 页（共 {{pages}} 页），显示 {{current}} 条记录（共 {{count}} 条）"
+
+msgid "Delete Tag"
+msgstr "删除标签"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Id"
+msgstr "标识符"
+
+msgid "Created"
+msgstr "创建时间"
+
+msgid "Modified"
+msgstr "修改时间"
+
+msgid "Related Articles"
+msgstr "相关文章"
+
+msgid "User Id"
+msgstr "用户标识符"
+
+msgid "Body"
+msgstr "正文"
+
+msgid "Published"
+msgstr "已发布"
+
+msgid "List Users"
+msgstr "用户列表"
+
+msgid "Add User"
+msgstr "添加用户"
+
+msgid "Edit User"
+msgstr "编辑用户"
+
+msgid "New User"
+msgstr "新用户"
+
+msgid "Users"
+msgstr "用户"
+
+msgid "Connexion"
+msgstr "登录"
+
+msgid "Please enter your username and password"
+msgstr "请输入您的用户名和密码"
+
+msgid "email"
+msgstr "电子邮件"
+
+msgid "password"
+msgstr "密码"
+
+msgid "Login"
+msgstr "登录"
+
+msgid "Add a user"
+msgstr "添加用户"
+
+msgid "Delete User"
+msgstr "删除用户"
+
+msgid "Email"
+msgstr "电子邮件"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Unable to update the post"
+msgstr "无法更新帖子"
+
+msgid "Action"
+msgstr "操作"

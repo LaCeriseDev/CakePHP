@@ -49,8 +49,17 @@ return [
     'App' => [
         'namespace' => 'App',
         'encoding' => env('APP_ENCODING', 'UTF-8'),
-        'defaultLocale' => env('APP_DEFAULT_LOCALE', 'en_US'),
+        'defaultLocale' => env('APP_DEFAULT_LOCALE', 'en'),
         'defaultTimezone' => env('APP_DEFAULT_TIMEZONE', 'UTC'),
+        'locales' => [
+            'en_US' => ['name' => 'English', 'locale' => 'en_US'],
+            'fr_FR' => ['name' => 'Français', 'locale' => 'fr_FR'],
+            'es_ES' => ['name' => 'Español', 'locale' => 'es_ES'],
+            'it_IT' => ['name' => 'Italiano', 'locale' => 'it_IT'],
+            'ja_JP' => ['name' => '日本語', 'locale' => 'ja_JP'],
+            'ru_RU' => ['name' => 'Русский', 'locale' => 'ru_RU'],
+            'zh_CN' => ['name' => '简体中文', 'locale' => 'zh_CN'],
+        ],
         'base' => false,
         'dir' => 'src',
         'webroot' => 'webroot',

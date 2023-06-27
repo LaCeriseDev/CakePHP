@@ -34,10 +34,10 @@ class ArticlesController extends AppController
             $article->user_id = $this->request->getAttribute('identity')->getIdentifier();
 
             if ($this->Articles->save($article)) {
-                $this->Flash->success(__('Votre article a été sauvegardé.'));
+                $this->Flash->success(__('Your post has been saved.'));
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('Impossible d\'ajouter votre article.'));
+            $this->Flash->error(__('Unable to add your post.'));
         }
         $tags = $this->Articles->Tags->find('list')->all();
         $this->set(compact('article', 'tags'));
@@ -57,10 +57,10 @@ class ArticlesController extends AppController
                 'accessibleFields' => ['user_id' => false]
             ]);
             if ($this->Articles->save($article)) {
-                $this->Flash->success(__('Votre article a été mis à jour.'));
+                $this->Flash->success(__('Your post has been updated.'));
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('Impossible de mettre à jour l\'article.'));
+            $this->Flash->error(__('Unable to update the post'));
         }
         // Récupère une liste des tags.
         $tags = $this->Articles->Tags->find('list')->all();
@@ -79,7 +79,7 @@ class ArticlesController extends AppController
         $this->Authorization->authorize($article);
 
         if ($this->Articles->delete($article)) {
-            $this->Flash->success(__('L\'article {0} a été supprimé.', $article->title));
+            $this->Flash->success(__('The post {0} has been deleted.', $article->title));
             return $this->redirect(['action' => 'index']);
         }
     }

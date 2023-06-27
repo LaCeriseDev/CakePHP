@@ -13,9 +13,18 @@
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  * @var \App\View\AppView $this
  */
+use Cake\Core\Configure;
+
 
 $cakeDescription = 'CakePHP: the rapid development php framework';
+
+$locales = Configure::read('App.locales');
+$languageOptions = [];
+foreach($locales as $code => $locale) {
+    $languageOptions[$locale['locale']] = $locale['name'];
+}
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,7 +50,12 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
-            <a target="_blank" rel="noopener" href="https://book.cakephp.org/4/">Documentation</a>
+            <?= $this->Form->create(null, ['type' => 'get', 'url' => ['controller' => 'App', 'action' => 'changeLanguage'], 'id' => 'languageForm']) ?>
+                <?= $this->Form->control('lang', ['type' => 'select', 'options' => $languageOptions, 'empty' => false, 'default' => $this->request->getSession()->read('Config.language'), 'id' => 'languageSelect']) ?>
+  
+            <?= $this->Form->end() ?>
+
+            <a target="_blank" rel="noopener" href="https://book.cakephp.org/4/"><?= __("Documentation") ?></a>
             <a target="_blank" rel="noopener" href="https://api.cakephp.org/">API</a>
         </div>
     </nav>
@@ -53,5 +67,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </main>
     <footer>
     </footer>
+    <script>
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            document.getElementById('languageForm').submit();
+        });
+    </script>
 </body>
 </html>

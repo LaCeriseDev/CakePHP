@@ -4,8 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4666cad4f3a92747e3e80d01f4bcde1",
+    "content-hash": "e068d24428986a89d1e98ce78370200f",
     "packages": [
+        {
+            "name": "admad/cakephp-i18n",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ADmad/cakephp-i18n.git",
+                "reference": "fc6732ac464610968fd8df6f2570c7d8d6105375"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ADmad/cakephp-i18n/zipball/fc6732ac464610968fd8df6f2570c7d8d6105375",
+                "reference": "fc6732ac464610968fd8df6f2570c7d8d6105375",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^4.0.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~8.5.0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "ADmad\\I18n\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ADmad",
+                    "homepage": "https://github.com/ADmad",
+                    "role": "Author"
+                }
+            ],
+            "description": "A CakePHP plugin for I18n related tools.",
+            "homepage": "https://github.com/ADmad/cakephp-i18n",
+            "keywords": [
+                "cakephp",
+                "i18n",
+                "messages",
+                "routing",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/ADmad/cakephp-i18n/issues",
+                "source": "https://github.com/ADmad/cakephp-i18n"
+            },
+            "time": "2021-12-25T14:04:46+00:00"
+        },
         {
             "name": "cakephp/authentication",
             "version": "2.10.1",
@@ -306,6 +358,59 @@
                 "source": "https://github.com/cakephp/chronos"
             },
             "time": "2023-04-19T15:05:35+00:00"
+        },
+        {
+            "name": "cakephp/localized",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/localized.git",
+                "reference": "1cdfb43428cce04321135d3c31094ae6538922e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/localized/zipball/1cdfb43428cce04321135d3c31094ae6538922e5",
+                "reference": "1cdfb43428cce04321135d3c31094ae6538922e5",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^4.2.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "cakephp/cakephp-codesniffer": "^4.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Cake\\Localized\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/localized/graphs/contributors"
+                }
+            ],
+            "description": "CakePHP Localized Plugin",
+            "homepage": "https://github.com/cakephp/localized",
+            "keywords": [
+                "cakephp",
+                "i18n",
+                "l10n",
+                "localized"
+            ],
+            "support": {
+                "forum": "https://stackoverflow.com/tags/cakephp",
+                "issues": "https://github.com/cakephp/localized/issues",
+                "source": "https://github.com/cakephp/localized"
+            },
+            "time": "2023-01-17T00:45:36+00:00"
         },
         {
             "name": "cakephp/migrations",

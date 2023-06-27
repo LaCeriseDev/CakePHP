@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2023-06-20 09:48+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Your post has been saved."
+msgstr "Your post has been saved."
+
+msgid "Unable to add your post."
+msgstr "Unable to add your post."
+
+msgid "Your post has been updated."
+msgstr "Your post has been updated."
+
+msgid "Unable to update the post."
+msgstr "Unable to update the post."
+
+msgid "The post {0} has been deleted."
+msgstr "The post {0} has been deleted."
+
+msgid "The tag has been saved."
+msgstr "The tag has been saved."
+
+msgid "The tag could not be saved. Please, try again."
+msgstr "The tag could not be saved. Please, try again."
+
+msgid "The tag has been deleted."
+msgstr "The tag has been deleted."
+
+msgid "The tag could not be deleted. Please, try again."
+msgstr "The tag could not be deleted. Please, try again."
+
+msgid "The user has been saved."
+msgstr "The user has been saved."
+
+msgid "The user could not be saved. Please, try again."
+msgstr "The user could not be saved. Please, try again."
+
+msgid "The user has been deleted."
+msgstr "The user has been deleted."
+
+msgid "The user could not be deleted. Please, try again."
+msgstr "The user could not be deleted. Please, try again."
+
+msgid "Your username or password is incorrect."
+msgstr "Your username or password is incorrect."
+
+msgid "Add a post"
+msgstr "Add a post"
+
+msgid "title"
+msgstr "title"
+
+msgid "body"
+msgstr "body"
+
+msgid "save"
+msgstr "save"
+
+msgid "Edit a post"
+msgstr "Edit a post"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Post with tags"
+msgstr "Post with tags"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Created at"
+msgstr "Created at"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Add Tag"
+msgstr "Add Tag"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Are you sure you want to delete # {0}?"
+
+msgid "List Tags"
+msgstr "List Tags"
+
+msgid "Edit Tag"
+msgstr "Edit Tag"
+
+msgid "New Tag"
+msgstr "New Tag"
+
+msgid "View"
+msgstr "View"
+
+msgid "first"
+msgstr "first"
+
+msgid "previous"
+msgstr "previous"
+
+msgid "next"
+msgstr "next"
+
+msgid "last"
+msgstr "last"
+
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+
+msgid "Delete Tag"
+msgstr "Delete Tag"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Created"
+msgstr "Created"
+
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Related Articles"
+msgstr "Related Articles"
+
+msgid "User Id"
+msgstr "User Id"
+
+msgid "Body"
+msgstr "Body"
+
+msgid "Published"
+msgstr "Published"
+
+msgid "List Users"
+msgstr "List Users"
+
+msgid "Add User"
+msgstr "Add User"
+
+msgid "Edit User"
+msgstr "Edit User"
+
+msgid "New User"
+msgstr "New User"
+
+msgid "Users"
+msgstr "Users"
+
+msgid "Connexion"
+msgstr "Connexion"
+
+msgid "Please enter your username and password"
+msgstr "Please enter your username and password"
+
+msgid "email"
+msgstr "email"
+
+msgid "password"
+msgstr "password"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Add a user"
+msgstr "Add a user"
+
+msgid "Delete User"
+msgstr "Delete User"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Unable to update the post"
+msgstr "Unable to update the post"
+
+msgid "Action"
+msgstr "Action"

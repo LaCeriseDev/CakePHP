@@ -1,6 +1,6 @@
 <!-- Dans templates/Articles/tags.php -->
 <h1>
-    Articles avec les tags
+    <?= __("Post with tags") ?>
     <?= $this->Text->toList(h($tags), 'or') ?>
 </h1>
 
@@ -9,10 +9,10 @@
     <article>
         <!-- Utilisation du HtmlHelper pour créer le lien -->
         <h4><?= $this->Html->link(
-            $article->title,
+            __($article->title),
             ['controller' => 'Articles', 'action' => 'view', $article->slug]
         ) ?></h4>
-        <span><?= h($article->created) ?></span>
+        <span><?= __(h($article->created)) ?></span>
     </article>
 <?php endforeach; ?>
 </section>

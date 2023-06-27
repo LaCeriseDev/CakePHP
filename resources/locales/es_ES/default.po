@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: lokalise.com\n"
+"Project-Id-Version: learning\n"
+"PO-Revision-Date: 2023-06-25 20:05\n"
+"Last-Translator: lokalise.com\n"
+"Language-Team: lokalise.com\n\n"
+"Language: es\n"
+
+msgid "Your post has been saved."
+msgstr "Su publicación ha sido guardada."
+
+msgid "Unable to add your post."
+msgstr "No se pudo agregar su publicación."
+
+msgid "Your post has been updated."
+msgstr "Su publicación ha sido actualizada."
+
+msgid "Unable to update the post."
+msgstr "No se pudo actualizar la publicación."
+
+msgid "The post {0} has been deleted."
+msgstr "La publicación {0} ha sido eliminada."
+
+msgid "The tag has been saved."
+msgstr "La etiqueta ha sido guardada."
+
+msgid "The tag could not be saved. Please, try again."
+msgstr "No se pudo guardar la etiqueta. Por favor, inténtelo de nuevo."
+
+msgid "The tag has been deleted."
+msgstr "La etiqueta ha sido eliminada."
+
+msgid "The tag could not be deleted. Please, try again."
+msgstr "No se pudo eliminar la etiqueta. Por favor, inténtelo de nuevo."
+
+msgid "The user has been saved."
+msgstr "El usuario ha sido guardado."
+
+msgid "The user could not be saved. Please, try again."
+msgstr "No se pudo guardar el usuario. Por favor, inténtelo de nuevo."
+
+msgid "The user has been deleted."
+msgstr "El usuario ha sido eliminado."
+
+msgid "The user could not be deleted. Please, try again."
+msgstr "No se pudo eliminar el usuario. Por favor, inténtelo de nuevo."
+
+msgid "Your username or password is incorrect."
+msgstr "Su nombre de usuario o contraseña es incorrecto."
+
+msgid "Add a post"
+msgstr "Agregar una publicación"
+
+msgid "title"
+msgstr "título"
+
+msgid "body"
+msgstr "cuerpo"
+
+msgid "save"
+msgstr "guardar"
+
+msgid "Edit a post"
+msgstr "Editar una publicación"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Post with tags"
+msgstr "Publicación con etiquetas"
+
+msgid "Tags"
+msgstr "Etiquetas"
+
+msgid "Created at"
+msgstr "Creado el"
+
+msgid "Actions"
+msgstr "Acciones"
+
+msgid "Add Tag"
+msgstr "Agregar una etiqueta"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Are you sure you want to delete # {0}?"
+msgstr "¿Está seguro de que desea eliminar el # {0}?"
+
+msgid "List Tags"
+msgstr "Lista de etiquetas"
+
+msgid "Edit Tag"
+msgstr "Editar etiqueta"
+
+msgid "New Tag"
+msgstr "Nueva etiqueta"
+
+msgid "View"
+msgstr "Ver"
+
+msgid "first"
+msgstr "primero"
+
+msgid "previous"
+msgstr "anterior"
+
+msgid "next"
+msgstr "siguiente"
+
+msgid "last"
+msgstr "último"
+
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Página {{page}} de {{pages}}, mostrando {{current}} registro(s) de un total de {{count}}"
+
+msgid "Delete Tag"
+msgstr "Eliminar etiqueta"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Created"
+msgstr "Creado"
+
+msgid "Modified"
+msgstr "Modificado"
+
+msgid "Related Articles"
+msgstr "Artículos relacionados"
+
+msgid "User Id"
+msgstr "Id de usuario"
+
+msgid "Body"
+msgstr "Cuerpo"
+
+msgid "Published"
+msgstr "Publicado"
+
+msgid "List Users"
+msgstr "Listar usuarios"
+
+msgid "Add User"
+msgstr "Agregar usuario"
+
+msgid "Edit User"
+msgstr "Editar usuario"
+
+msgid "New User"
+msgstr "Nuevo usuario"
+
+msgid "Users"
+msgstr "Usuarios"
+
+msgid "Connexion"
+msgstr "Conexión"
+
+msgid "Please enter your username and password"
+msgstr "Por favor, ingrese su nombre de usuario y contraseña"
+
+msgid "email"
+msgstr "email"
+
+msgid "password"
+msgstr "contraseña"
+
+msgid "Login"
+msgstr "Iniciar sesión"
+
+msgid "Add a user"
+msgstr "Agregar un usuario"
+
+msgid "Delete User"
+msgstr "Eliminar usuario"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Back"
+msgstr "Volver"
+
+msgid "Unable to update the post"
+msgstr "No se pudo actualizar la publicación"
+
+msgid "Action"
+msgstr "Acción"

@@ -70,4 +70,9 @@ class PagesController extends AppController
             throw new NotFoundException();
         }
     }
+
+    public function changeLanguage($locale = null)
+    {
+        parent::changeLanguage($locale);
+    }
 }

@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2023-06-20 09:48+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Your post has been saved."
+msgstr "Votre publication a été enregistrée."
+
+msgid "Unable to add your post."
+msgstr "Impossible d'ajouter votre publication."
+
+msgid "Your post has been updated."
+msgstr "Votre publication a été mise à jour."
+
+msgid "Unable to update the post."
+msgstr "Impossible de mettre à jour la publication."
+
+msgid "The post {0} has been deleted."
+msgstr "La publication {0} a été supprimée."
+
+msgid "The tag has been saved."
+msgstr "Le tag a été enregistré."
+
+msgid "The tag could not be saved. Please, try again."
+msgstr "Le tag n'a pas pu être enregistré. Veuillez réessayer."
+
+msgid "The tag has been deleted."
+msgstr "Le tag a été supprimé."
+
+msgid "The tag could not be deleted. Please, try again."
+msgstr "Le tag n'a pas pu être supprimé. Veuillez réessayer."
+
+msgid "The user has been saved."
+msgstr "L'utilisateur a été enregistré."
+
+msgid "The user could not be saved. Please, try again."
+msgstr "L'utilisateur n'a pas pu être enregistré. Veuillez réessayer."
+
+msgid "The user has been deleted."
+msgstr "L'utilisateur a été supprimé."
+
+msgid "The user could not be deleted. Please, try again."
+msgstr "L'utilisateur n'a pas pu être supprimé. Veuillez réessayer."
+
+msgid "Your username or password is incorrect."
+msgstr "Votre nom d'utilisateur ou mot de passe est incorrect."
+
+msgid "Add a post"
+msgstr "Ajouter une publication"
+
+msgid "title"
+msgstr "titre"
+
+msgid "body"
+msgstr "corps"
+
+msgid "save"
+msgstr "enregistrer"
+
+msgid "Edit a post"
+msgstr "Modifier une publication"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Post with tags"
+msgstr "Publication avec des tags"
+
+msgid "Tags"
+msgstr "Mots-clés"
+
+msgid "Created at"
+msgstr "Créé le"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Add Tag"
+msgstr "Ajouter un tag"
+
+msgid "Submit"
+msgstr "Soumettre"
+
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Êtes-vous sûr de vouloir supprimer # {0} ?"
+
+msgid "List Tags"
+msgstr "Liste des tags"
+
+msgid "Edit Tag"
+msgstr "Modifier la balise"
+
+msgid "New Tag"
+msgstr "Nouvelle étiquette"
+
+msgid "View"
+msgstr "Voir"
+
+msgid "first"
+msgstr "premier"
+
+msgid "previous"
+msgstr "précédent"
+
+msgid "next"
+msgstr "suivant"
+
+msgid "last"
+msgstr "dernier"
+
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Page {{page}} sur {{pages}}, affichage de {{current}} enregistrement(s) sur un total de {{count}}"
+
+msgid "Delete Tag"
+msgstr "Supprimer la balise"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Id"
+msgstr "Identifiant"
+
+msgid "Created"
+msgstr "Créé"
+
+msgid "Modified"
+msgstr "Modifié"
+
+msgid "Related Articles"
+msgstr "Articles liés"
+
+msgid "User Id"
+msgstr "ID de l'utilisateur"
+
+msgid "Body"
+msgstr "Corps"
+
+msgid "Published"
+msgstr "Publié"
+
+msgid "List Users"
+msgstr "Liste des utilisateurs"
+
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+
+msgid "Edit User"
+msgstr "Modifier l'utilisateur"
+
+msgid "New User"
+msgstr "Nouvel utilisateur"
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "Connexion"
+msgstr "Connexion"
+
+msgid "Please enter your username and password"
+msgstr "Veuillez entrer votre nom d'utilisateur et votre mot de passe"
+
+msgid "email"
+msgstr "email"
+
+msgid "password"
+msgstr "mot de passe"
+
+msgid "Login"
+msgstr "Connexion"
+
+msgid "Add a user"
+msgstr "Ajouter un utilisateur"
+
+msgid "Delete User"
+msgstr "Supprimer l'utilisateur"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "Unable to update the post"
+msgstr "Impossible de mettre à jour la publication"
+
+msgid "Action"
+msgstr "Action"

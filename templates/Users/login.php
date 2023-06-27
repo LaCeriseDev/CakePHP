@@ -1,14 +1,14 @@
 <div class="users form">
     <?= $this->Flash->render() ?>
-    <h3>Connexion</h3>
+    <h3><?= __("Connexion") ?></h3>
     <?= $this->Form->create() ?>
     <fieldset>
-        <legend><?= __('Veuillez s\'il vous plaît entrer votre nom d\'utilisateur et votre mot de passe') ?></legend>
-        <?= $this->Form->control('email', ['required' => true]) ?>
-        <?= $this->Form->control('password', ['required' => true]) ?>
+        <legend><?= __('Please enter your username and password') ?></legend>
+        <?= $this->Form->control(__('email'), ['type' => 'email', 'id' => 'email', 'name' => 'email', 'required' => true]) ?>
+        <?= $this->Form->control(__('password'), ['type' => 'password', 'id' => 'password', 'name' => 'password', 'required' => true]) ?>
     </fieldset>
     <?= $this->Form->submit(__('Login')); ?>
     <?= $this->Form->end() ?>
 
-    <?= $this->Html->link("Ajouter un utilisateur", ['action' => 'add']) ?>
+    <?= $this->Html->link(__("Add a user"), ['action' => 'add']) ?>
 </div>

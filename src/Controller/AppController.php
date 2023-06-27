@@ -45,6 +45,8 @@ class AppController extends Controller
         $this->loadComponent('Flash');
         $this->loadComponent('Authentication.Authentication');
         $this->loadComponent('Authorization.Authorization');
+        // $this->loadComponent('Authorization.Authorization');
+        // $this->Authentication->allowUnauthenticated(['changeLanguage']);
         /*
          * Enable the following component for recommended CakePHP form protection settings.
          * see https://book.cakephp.org/4/en/controllers/components/form-protection.html
@@ -58,5 +60,16 @@ class AppController extends Controller
         // pour tous les contrôleurs de notre application, rendre les actions
         // index et view publiques, en ignorant la vérification d'authentification
         $this->Authentication->addUnauthenticatedActions(['index', 'view']);
+        $this->Authentication->allowUnauthenticated(['changeLanguage']);
+    }
+
+    public function changeLanguage()
+    {
+        $this->Authorization->skipAuthorization();
+
+        if ($this->request->getQuery('lang')) {
+            $this->request->getSession()->write('Config.language', $this->request->getQuery('lang'));
+        }
+        return $this->redirect($this->referer());
     }
 }

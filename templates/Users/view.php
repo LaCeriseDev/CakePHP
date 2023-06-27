@@ -44,7 +44,7 @@
                             <th><?= __('Id') ?></th>
                             <th><?= __('User Id') ?></th>
                             <th><?= __('Title') ?></th>
-                            <th><?= __('Slug') ?></th>
+                            <th><?= 'Slug' ?></th>
                             <th><?= __('Body') ?></th>
                             <th><?= __('Published') ?></th>
                             <th><?= __('Created') ?></th>

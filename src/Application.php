@@ -39,6 +39,7 @@ use Authorization\AuthorizationServiceProviderInterface;
 use Authorization\Middleware\AuthorizationMiddleware;
 use Authorization\Policy\OrmResolver;
 use Psr\Http\Message\ResponseInterface;
+use Cake\I18n\I18n;
 
 /**
  * Application setup class.
@@ -80,6 +81,8 @@ class Application extends BaseApplication
         }
 
         // Load more plugins here
+        $this->addPlugin('Cake/Localized');
+        $this->addPlugin('ADmad/I18n');
     }
 
     /**
@@ -114,7 +117,12 @@ class Application extends BaseApplication
             // available as array through $request->getData()
             // https://book.cakephp.org/4/en/controllers/middleware.html#body-parser-middleware
             ->add(new BodyParserMiddleware())
-
+            ->add(function ($request, $response, $next) {
+                if ($request->getSession()->check('Config.language')) {
+                    I18n::setLocale($request->getSession()->read('Config.language'));
+                }
+                return $next($request, $response);
+            })
             // Cross Site Request Forgery (CSRF) Protection Middleware
             // https://book.cakephp.org/4/en/security/csrf.html#cross-site-request-forgery-csrf-middleware
             ->add(new CsrfProtectionMiddleware([
